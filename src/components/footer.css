@@ -1,0 +1,34 @@
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  display: block;
+  scale: 0.65;
+  padding: 1rem;
+  border: 1px solid var(--PaleBlue);
+  border-radius: 50%;
+}
+
+.social a:hover > svg *,
+.social a:hover,
+.social a:focus > svg *,
+.social a:focus {
+  background: var(--Blue);
+  fill: white;
+}
+
+.social a:focus-visible {
+  outline-color: var(--Blue);
+}
+
+svg {
+  fill: var(--Blue);
+  display: inline-block;
+}
+
+.copyright {
+  color: var(--Gray);
+  opacity: 0.5;
+}

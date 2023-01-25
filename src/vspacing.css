@@ -1,0 +1,29 @@
+/* Spacing */
+
+header {
+  margin-top: 4.5rem;
+}
+
+form {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  margin-top: 1rem;
+}
+
+.footer-wrapper {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    margin-top: 0;
+  }
+}

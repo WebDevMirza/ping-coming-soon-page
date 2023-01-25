@@ -1,0 +1,27 @@
+header,
+main,
+footer {
+  text-align: center;
+}
+
+header img {
+  margin: 0 auto 2.25rem;
+}
+
+.title {
+  color: var(--Gray);
+}
+
+.text-accent,
+.card-text {
+  color: var(--VeryDarkBlue);
+}
+
+.text-accent {
+  font-weight: 700;
+  color: var(--VeryDarkBlue);
+}
+
+.card-text {
+  font-size: 1.25rem;
+}

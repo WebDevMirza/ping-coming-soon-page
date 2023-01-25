@@ -13,7 +13,7 @@
      ===============================  */
 
   --ff-primary: "Libre Franklin", sans-serif;
-  --fs-fontsize: 1.25rem;
+  --fs-fontsize: 1rem;
   --fw-300: 300;
   --fw-600: 600;
   --fw-700: 700;
@@ -32,6 +32,23 @@ body {
 /* ==============================
 Layout
 ============================== */
+
+.container {
+  max-width: 375px;
+  width: 95%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
 
 /* ================================
    Typography
