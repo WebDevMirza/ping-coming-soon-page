@@ -8,6 +8,10 @@ header img {
   margin: 0 auto 2.25rem;
 }
 
+.card-img img {
+  height: auto;
+}
+
 .title {
   color: var(--Gray);
 }

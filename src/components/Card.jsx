@@ -17,7 +17,7 @@ function Card() {
           </div>
 
           <div className="card-img">
-            <img src={CardPic} alt="ping is launching soon." />
+            <img src={CardPic} alt="ping is launching soon." width={800} height={488} />
           </div>
         </div>
       </main>
