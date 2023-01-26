@@ -5,6 +5,7 @@ form {
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
+  flex-wrap: wrap;
 }
 
 .email,
@@ -18,6 +19,7 @@ form {
 
 .email {
   color: var(--VeryDarkBlue);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px;
 }
 
 .email:focus-visible,
@@ -35,6 +37,7 @@ form {
   color: whitesmoke;
   font-weight: 600;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 12px;
 }
 
 .btn:hover,
@@ -43,11 +46,23 @@ form {
   transition: all 0.2s ease;
 }
 
+.error {
+  color: var(--LightRed);
+  filter: contrast(200%);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.03em;
+}
+
+.highlight-error {
+  border: 2px solid var(--LightRed);
+}
+
 @media (min-width: 768px) {
   form {
     flex-direction: row;
     gap: 1.5rem;
-    max-width: 700px;
+    max-width: 550px;
   }
 
   .email,
@@ -56,6 +71,13 @@ form {
   }
 
   .email {
-    width: 50%;
+    flex: 1;
+  }
+
+  .error {
+    order: 3;
+    margin-top: -0.75rem;
+    margin-left: 2rem;
+    margin-right: auto;
   }
 }
