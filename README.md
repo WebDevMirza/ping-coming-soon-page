@@ -9,13 +9,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## Screenshot
 
-### Desktop
-
-![](./lg.png)
-
-### Mobile
-
-![](./sm.png)
+![](./sm.gif)
 
 ## Author
 
